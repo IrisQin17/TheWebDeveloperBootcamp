@@ -6,7 +6,7 @@
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://irisqin17:w12z!iris@cluster0-q7uwp.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect('', {
 	useNewUrlParser: true,
 	useCreateIndex: true
 }). then(() => {
